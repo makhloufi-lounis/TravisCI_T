@@ -11,9 +11,12 @@ script:
 branches:
   only:
   - master
-  - /[upt][a-q][t]\b/
+  - /[upt][a-q][t]\b//
   
 #blocklist
 branches:
   except:
   - opt
+ 
+ #comments
+ 
