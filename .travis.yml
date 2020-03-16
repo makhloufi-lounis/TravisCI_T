@@ -6,3 +6,13 @@ python:
 # command to run tests
 script:
   - python3 test_fruits.py
+ 
+#safelist
+branches:
+  only:
+  - master
+  
+#blocklist
+branches:
+  except:
+  - opt
